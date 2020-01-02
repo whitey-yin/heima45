@@ -1,6 +1,5 @@
 <template>
-  <div>
-     <el-button type="success">成功按钮</el-button>
+  <div class="box">
     <router-view></router-view>
   </div>
 </template>
@@ -15,5 +14,8 @@ export default {
 </script>
 
 <style>
+.box {
+  height: 100vh;
+}
 
 </style>
